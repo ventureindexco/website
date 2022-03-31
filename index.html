@@ -8,6 +8,9 @@
     body {
       font-family: 'Inter', sans-serif;
     }
+    ul {
+      @apply list-disc;
+    }
     .header {
       @apply p-4 shadow;
     }
@@ -15,22 +18,25 @@
       @apply p-4;
     }
     .title {
-      @apply text-xl md:text-2xl font-bold;
+      @apply text-left text-2xl font-bold;
     }
     .title-caption {
-      @apply text-xs font-normal;
+      @apply text-left text-xs font-normal;
     }
     .section {
       @apply p-2;
     }
     .section-title {
-      @apply text-base md:text-xl font-semibold;
+      @apply text-left text-xl font-semibold;
     }
     .section-item {
       @apply py-1 pl-4;
     }
-    li a {
-      @apply underline;
+    .section-item-title {
+      @apply text-left text-base font-semibold;
+    }
+    .section-item-link {
+      @apply text-left text-sm font-normal underline;
     }
   </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,17 +60,17 @@
         Communities
       </div>
       <div class="section-item">
-        <div>
+        <div class="section-item-title">
           Startup PH
         </div>
         <ul>
           <li>
-            <a href="https://www.facebook.com/groups/219324261492180" target="_blank" rel="noopener">
+            <a class="section-item-link" href="https://www.facebook.com/groups/219324261492180" target="_blank" rel="noopener">
               Facebook Group
             </a>
           </li>
           <li>
-            <a href="https://www.clubhouse.com/club/startup-ph" target="_blank" rel="noopener">
+            <a class="section-item-link" href="https://www.clubhouse.com/club/startup-ph" target="_blank" rel="noopener">
               ClubHouse
             </a>
           </li>
