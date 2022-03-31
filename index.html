@@ -8,6 +8,12 @@
     body {
       font-family: 'Inter', sans-serif;
     }
+    .header {
+      @apply p-4 shadow;
+    }
+    .content {
+      @apply p-4;
+    }
     .title {
       @apply text-xl md:text-2xl font-bold;
     }
@@ -31,9 +37,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
 </head>
-<body class="p-4">
+<body>
 
-  <div class="section">
+  <div class="header">
     <div class="title">
       Venture Index
     </div>
@@ -42,35 +48,29 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="content">
     <div class="section">
-      News
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="section-title">
-      Communities
-    </div>
-
-    <div class="section-item">
-      <div>
-        Startup PH
+      <div class="section-title">
+        Communities
       </div>
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/groups/219324261492180" target="_blank" rel="noopener">
-            Facebook Group
-          </a>
-        </li>
-        <li>
-          <a href="https://www.clubhouse.com/club/startup-ph" target="_blank" rel="noopener">
-            ClubHouse
-          </a>
-        </li>
-      </ul>
+      <div class="section-item">
+        <div>
+          Startup PH
+        </div>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/groups/219324261492180" target="_blank" rel="noopener">
+              Facebook Group
+            </a>
+          </li>
+          <li>
+            <a href="https://www.clubhouse.com/club/startup-ph" target="_blank" rel="noopener">
+              ClubHouse
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-
   </div>
 
 </body>
