@@ -139,7 +139,7 @@ const data = {
 
         {
           name: 'Philippine Startup Week',
-          description: '(no description yet)',
+          description: '-',
           links: [
             { name: 'Website', href: 'https://www.phstartupweek.com/' },
             { name: 'YouTube', href: 'https://www.youtube.com/c/PhilippineStartupWeek' },
@@ -148,19 +148,10 @@ const data = {
 
         {
           name: 'The Final Pitch',
-          description: '(no description yet)',
+          description: '-',
           links: [
             { name: 'Website', href: 'https://thefinalpitch.ph/' },
             { name: 'YouTube', href: 'https://www.youtube.com/channel/UCBa9gQ-bKTKQgYdfBEltohA' },
-          ]
-        },
-        
-        {
-          name: 'BitPinas',
-          description: '(no description yet)',
-          links: [
-            { name: 'Website', href: 'https://bitpinas.com/' },
-            { name: 'Facebook', href: 'https://www.facebook.com/BitPinas/' },
           ]
         }
 
@@ -222,37 +213,49 @@ const data = {
       items: [
         {
           name: 'Startup PH Jobs',
-          description: '(no description yet)',
+          description: '-',
           links: [
             { name: 'Facebook Group', href: 'https://www.facebook.com/groups/277534272382470' },
           ]
         },
         {
           name: 'Tech & Startup Jobs PH',
-          description: '(no description yet)',
+          description: '-',
           links: [
             { name: 'Facebook Group', href: 'https://www.facebook.com/groups/450750702024985/' },
           ]
         },
         {
           name: 'Startup Philippines: Internships',
-          description: '(no description yet)',
+          description: '-',
           links: [
             { name: 'Facebook Group', href: 'https://www.facebook.com/groups/startupphilippinesinternships/' },
           ]
         },
         {
           name: 'Internships.ph (Philippines)',
-          description: '(no description yet)',
+          description: '-',
           links: [
             { name: 'Facebook Group', href: 'https://www.facebook.com/groups/bloguniverse/' },
           ]
+        }
+      ]
+    },
+    {
+      name: 'Coworking',
+      items: [
+        {
+          name: 'coworkingspacesPH',
+          description: '-',
+          links: [
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/1858909440797720/' },
+          ]
         },
         {
-          name: 'XXX',
-          description: 'XXX',
+          name: 'Coworking Spaces PH',
+          description: '-',
           links: [
-            { name: 'XXX', href: 'XXX' },
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/coworkingspacesph/' },
           ]
         }
       ]
