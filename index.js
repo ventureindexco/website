@@ -171,13 +171,90 @@ const data = {
       items: [
 
         {
+          name: 'Hustleshare Podcast',
+          description: 'Hosted by Ron Baetong.',
+          links: [
+            { name: 'Website', href: 'https://www.hustleshare.com/' },
+            { name: 'Facebook', href: 'https://www.facebook.com/hustleshare' },
+            { name: 'Spotify', href: 'https://open.spotify.com/show/6fPsNbi8m8mCIyGZH1YGm1' },
+            { name: 'Apple', href: 'https://podcasts.apple.com/ph/podcast/hustleshare/id1453894361' },
+          ]
+        },
+        {
+          name: 'The RJ Ledesma Podcast',
+          description: 'Hosted by RJ Ledesma.',
+          links: [
+            { name: 'Facebook', href: 'https://www.facebook.com/rjledesmapodcast' },
+            { name: 'Spotify', href: 'https://open.spotify.com/show/5KEdheZOjNCcAOvXvSbd8U' },
+            { name: 'Apple', href: 'https://podcasts.apple.com/ph/podcast/the-rj-ledesma-podcast/id1526434916' },
+          ]
+        },
+        {
+          name: 'Start Up Podcast',
+          description: 'Hosted by Janni Boydon.',
+          links: [
+            { name: 'Facebook', href: 'https://www.facebook.com/startuppodcastph' },
+            { name: 'YouTube', href: 'https://www.youtube.com/channel/UC3OM1fve7rqc7bKM1hQxdWg' },
+            { name: 'Spotify', href: 'https://open.spotify.com/show/6BObuPvMfoZzdlJeb1XXVa' },
+            { name: 'Apple', href: 'https://podcasts.apple.com/us/podcast/start-up-podcast/id1576462394' },
+          ]
+        },
+        {
+          name: 'Branding with PB',
+          description: 'Hosted by Phoebe Añasco.',
+          links: [
+            { name: 'Website', href: 'https://thepbanasco.com/' },
+            { name: 'Spotify', href: 'https://open.spotify.com/show/2GFRFNJElScviPc6wzme4b' },
+          ]
+        },
+        {
+          name: 'Global Ideas',
+          description: 'Hosted by Makati Business Club.',
+          links: [
+            { name: 'Spotify', href: 'https://open.spotify.com/show/5db8xLdo6nXh7wPWQjK7LN' },
+            { name: 'Apple', href: 'https://podcasts.apple.com/ph/podcast/global-ideas-an-mbc-podcast/id1613864287' },
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Recruitment',
+      items: [
+        {
+          name: 'Startup PH Jobs',
+          description: '(no description yet)',
+          links: [
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/277534272382470' },
+          ]
+        },
+        {
+          name: 'Tech & Startup Jobs PH',
+          description: '(no description yet)',
+          links: [
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/450750702024985/' },
+          ]
+        },
+        {
+          name: 'Startup Philippines: Internships',
+          description: '(no description yet)',
+          links: [
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/startupphilippinesinternships/' },
+          ]
+        },
+        {
+          name: 'Internships.ph (Philippines)',
+          description: '(no description yet)',
+          links: [
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/bloguniverse/' },
+          ]
+        },
+        {
           name: 'XXX',
           description: 'XXX',
           links: [
             { name: 'XXX', href: 'XXX' },
           ]
         }
-        
       ]
     }
   ]
