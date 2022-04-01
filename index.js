@@ -93,7 +93,7 @@ const section_item_list_item_element = document.createElement('li')
 const section_item_list_item_link_element = document.createElement('a')
 section_item_description_element.classList.add('section-item-link');
 
-content_element.append(section);
+content_element.append(section_element);
 section_element.append(section_title_element);
 section_element.append(section_items_element);
 section_items_element.append(section_item_element);
