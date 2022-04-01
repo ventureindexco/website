@@ -1,6 +1,36 @@
 
 // @ts-check
 
+const tags = {
+  null: { id: '', name: '' },
+
+  // section type
+  news: { id: 'news', name: 'News' },
+  events: { id: 'events', name: 'Events' },
+  resources: { id: 'resources', name: 'Resources' },
+  recruitment: { id: 'recruitment', name: 'Recruitment' },
+
+  // entity type
+  team: { id: 'team', name: 'Team' },
+  company: { id: 'company', name: 'Company' },
+  community: { id: 'community', name: 'Community' },
+  association: { id: 'association', name: 'Association' },
+  organization: { id: 'organization', name: 'Organization' },
+  government: { id: 'government', name: 'Government' },
+
+  // investor type
+  angel: { id: 'angel', name: 'Angel' },
+  syndicate: { id: 'syndicate', name: 'Syndicate' },
+  incubator: { id: 'incubator', name: 'Incubator' },
+  accelerator: { id: 'accelerator', name: 'Incubator' },
+  venture_capital: { id: 'venture_capital', name: 'Venture Capital' },
+
+  // resource type
+  blog: { id: 'blog', name: 'Blog' },
+  video: { id: 'video', name: 'Video' },
+  podcast: { id: 'podcast', name: 'Podcast' },
+};
+
 const data = {
   sections: [
     {
@@ -26,6 +56,10 @@ const data = {
           ]
         }
       ]
+    },
+    {
+      name: 'Associations, Organizations',
+      items: []
     }
   ]
 }
