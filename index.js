@@ -68,7 +68,7 @@ const data = {
         },
 
         {
-          name: 'Philippine TBIs (Technology Business Incubators)',
+          name: 'Philippine TBIs',
           description: 'For incubators I guess.',
           links: [
             { name: 'Facebook Group', href: 'https://www.facebook.com/groups/415694698844734/' },
@@ -100,7 +100,7 @@ const data = {
         },
 
         {
-          name: 'Product PH - Product Management Community',
+          name: 'Product PH',
           description: 'For planning, building, and launching products.',
           links: [
             { name: 'Facebook Group', href: 'https://www.facebook.com/groups/ProductPH/' },
@@ -124,7 +124,7 @@ const data = {
         },
 
         {
-          name: 'BlockchainSpace Philippines (Blockchain & Cryptocurrency Community)',
+          name: 'BlockchainSpace Philippines',
           description: 'For blockchain and crypto stuff.',
           links: [
             { name: 'Facebook Group', href: 'https://www.facebook.com/groups/blockchainspaceph/' },
