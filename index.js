@@ -2,7 +2,6 @@
 // @ts-check
 
 const tags = {
-  null: { id: '', name: '' },
 
   // section type
   news: { id: 'news', name: 'News' },
@@ -29,6 +28,7 @@ const tags = {
   blog: { id: 'blog', name: 'Blog' },
   video: { id: 'video', name: 'Video' },
   podcast: { id: 'podcast', name: 'Podcast' },
+
 };
 
 const data = {
