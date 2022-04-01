@@ -17,17 +17,22 @@ const tags = {
   organization: { id: 'organization', name: 'Organization' },
   government: { id: 'government', name: 'Government' },
 
+  // platform type
+  youtube: { id: 'youtube_channel', name: 'YouTube Channel' },
+  facebook: { id: 'facebook_page', name: 'YouTube Channel' },
+  youtube: { id: 'youtube_channel', name: 'YouTube Channel' },
+
+  // media type
+  article: { id: 'article', name: 'Article' },
+  video: { id: 'video', name: 'Video' },
+  audio: { id: 'audio', name: 'Audio' },
+
   // investor type
   angel: { id: 'angel', name: 'Angel' },
   syndicate: { id: 'syndicate', name: 'Syndicate' },
   incubator: { id: 'incubator', name: 'Incubator' },
   accelerator: { id: 'accelerator', name: 'Incubator' },
   venture_capital: { id: 'venture_capital', name: 'Venture Capital' },
-
-  // resource type
-  blog: { id: 'blog', name: 'Blog' },
-  video: { id: 'video', name: 'Video' },
-  podcast: { id: 'podcast', name: 'Podcast' },
 
 };
 
