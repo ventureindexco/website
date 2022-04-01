@@ -17,6 +17,7 @@
   <style type="text/tailwindcss">
     body {
       font-family: 'Inter', sans-serif;
+      @apply bg-slate-100;
     }
     ul {
       @apply ml-4 list-disc;
@@ -24,17 +25,17 @@
     .header {
       @apply p-4;
     }
-    .content {
-      @apply p-4 bg-gray-100;
-    }
     .title {
       @apply text-left text-2xl font-bold;
     }
     .title-caption {
       @apply text-left text-xs font-normal;
     }
+    .content {
+      @apply p-4;
+    }
     .section {
-      @apply p-2;
+      @apply m-2 p-2 bg-slate-300 rounded-lg;
     }
     .section-title {
       @apply text-left text-xl font-semibold;
@@ -43,7 +44,7 @@
       @apply py-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4;
     }
     .section-item {
-      @apply p-2 bg-white;
+      @apply p-2 bg-white rounded-lg;
     }
     .section-item-title {
       @apply text-left text-base font-semibold text-black;
