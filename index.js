@@ -56,50 +56,59 @@ const data = {
           ]
         }
       ]
-    },
-    {
-      name: 'Associations, Organizations',
-      items: []
     }
   ]
-}
+};
 
 console.log({ data });
 
 const content_element = document.getElementById('content');
-const section_element = document.createElement('div')
-section_element.classList.add('section');
 
-const section_title_element = document.createElement('div')
-section_title_element.classList.add('section-title');
-section_title_element.innerText = 'Example Section Title';
+data.sections.forEach((section) => {
 
-const section_items_element = document.createElement('div')
-section_items_element.classList.add('section-items');
+  const section_element = document.createElement('div')
+  section_element.classList.add('section');
+  content_element.append(section_element);
 
-const section_item_element = document.createElement('div')
-section_item_element.classList.add('section-item');
+  const section_title_element = document.createElement('div')
+  section_title_element.classList.add('section-title');
+  section_title_element.innerText = section.name;
+  section_element.append(section_title_element);
+  
+  const section_items_element = document.createElement('div')
+  section_items_element.classList.add('section-items');
+  section_element.append(section_items_element);
 
-const section_item_title_element = document.createElement('div')
-section_item_title_element.classList.add('section-item-title');
-section_item_title_element.innerText = 'Example Item Title';
+  section.items.forEach((item) => {
 
-const section_item_description_element = document.createElement('div')
-section_item_description_element.classList.add('section-item-description');
-section_item_description_element.innerText = 'Example Item Description';
+    const section_item_element = document.createElement('div')
+    section_item_element.classList.add('section-item');
+    section_items_element.append(section_item_element);
 
-const section_item_list_element = document.createElement('ul')
-const section_item_list_item_element = document.createElement('li')
-const section_item_list_item_link_element = document.createElement('a')
-section_item_list_item_link_element.classList.add('section-item-link');
-section_item_list_item_link_element.innerText = 'Example Item Link';
+    const section_item_title_element = document.createElement('div')
+    section_item_title_element.classList.add('section-item-title');
+    section_item_title_element.innerText = item.name;
+    section_item_element.append(section_item_title_element);
 
-content_element.append(section_element);
-section_element.append(section_title_element);
-section_element.append(section_items_element);
-section_items_element.append(section_item_element);
-section_item_element.append(section_item_title_element);
-section_item_element.append(section_item_description_element);
-section_item_element.append(section_item_list_element);
-section_item_list_element.append(section_item_list_item_element);
-section_item_list_item_element.append(section_item_list_item_link_element);
+    const section_item_description_element = document.createElement('div')
+    section_item_description_element.classList.add('section-item-description');
+    section_item_description_element.innerText = item.description;
+    section_item_element.append(section_item_description_element);
+
+    const section_item_list_element = document.createElement('ul')
+    section_item_element.append(section_item_list_element);
+
+    item.links.forEach((link) => {
+
+      const section_item_list_item_element = document.createElement('li')
+      section_item_list_element.append(section_item_list_item_element);
+      
+      const section_item_list_item_link_element = document.createElement('a')
+      section_item_list_item_link_element.classList.add('section-item-link');
+      section_item_list_item_link_element.innerText = link.name;
+      section_item_list_item_link_element.href = link.href;
+      section_item_list_item_element.append(section_item_list_item_link_element);
+
+    });
+  });
+});
