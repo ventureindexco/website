@@ -100,4 +100,5 @@ section_items_element.append(section_item_element);
 section_item_element.append(section_item_title_element);
 section_item_element.append(section_item_description_element);
 section_item_element.append(section_item_list_element);
-section_item_list_element.append(section_item_list_item_link_element);
+section_item_list_element.append(section_item_list_item_element);
+section_item_list_item_element.append(section_item_list_item_link_element);
