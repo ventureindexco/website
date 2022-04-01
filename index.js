@@ -63,7 +63,7 @@ const data = {
           description: 'An invite-only community, just DM Francis.',
           links: [
             { name: 'Twitter Community Invitation', href: 'https://twitter.com/fplaza/status/1471860695314567173' },
-            { name: 'Twitter Community', href: 'https://twitter.com/i/communities/1471859452961640448' },
+            { name: 'Twitter Community', href: 'https://twitter.com/i/communities/1471859452961640448' }
           ]
         },
 
@@ -71,7 +71,7 @@ const data = {
           name: 'Philippine TBIs (Technology Business Incubators)',
           description: 'For incubators I guess.',
           links: [
-            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/415694698844734/' }, 
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/415694698844734/' },
           ]
         },
 
@@ -79,18 +79,105 @@ const data = {
           name: 'Startup PH: (Cebu/Bisdak) Community',
           description: 'For those within the queen city of the south.',
           links: [
-            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/1119146058126032/' }, 
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/1119146058126032/' },
           ]
         },
+
+        {
+          name: 'Startup PH: Community Builders',
+          description: 'If you like building, and if you like communities..',
+          links: [
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/startupphcb/' },
+          ]
+        },
+
+        {
+          name: 'Startup Events Philippines',
+          description: 'Startup-related events obviously.',
+          links: [
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/1197052960315273/' },
+          ]
+        },
+
+        {
+          name: 'Product PH - Product Management Community',
+          description: 'For planning, building, and launching products.',
+          links: [
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/ProductPH/' },
+          ]
+        },
+
+        {
+          name: 'Startup PH: Marketing',
+          description: 'Marketing, marketing, marketing..',
+          links: [
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/342788319414143/' },
+          ]
+        },
+
+        {
+          name: 'Hackathon Hub Philippines',
+          description: 'For developers and designers looking to compete.',
+          links: [
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/philippinehackathons/' },
+          ]
+        },
+
+        {
+          name: 'BlockchainSpace Philippines (Blockchain & Cryptocurrency Community)',
+          description: 'For blockchain and crypto stuff.',
+          links: [
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/blockchainspaceph/' },
+          ]
+        }
+
+      ]
+    },
+    {
+      name: 'Video',
+      items: [
+
+        {
+          name: 'Philippine Startup Week',
+          description: '(no description yet)',
+          links: [
+            { name: 'Website', href: 'https://www.phstartupweek.com/' },
+            { name: 'YouTube', href: 'https://www.youtube.com/c/PhilippineStartupWeek' },
+          ]
+        },
+
+        {
+          name: 'The Final Pitch',
+          description: '(no description yet)',
+          links: [
+            { name: 'Website', href: 'https://thefinalpitch.ph/' },
+            { name: 'YouTube', href: 'https://www.youtube.com/channel/UCBa9gQ-bKTKQgYdfBEltohA' },
+          ]
+        },
+        
+        {
+          name: 'BitPinas',
+          description: '(no description yet)',
+          links: [
+            { name: 'Website', href: 'https://bitpinas.com/' },
+            { name: 'Facebook', href: 'https://www.facebook.com/BitPinas/' },
+          ]
+        }
+
+      ]
+    },
+    {
+      name: 'Audio / Podcast',
+      items: [
 
         {
           name: 'XXX',
           description: 'XXX',
           links: [
-            { name: 'XXX', href: 'XXX' }, 
+            { name: 'XXX', href: 'XXX' },
           ]
         }
-
+        
       ]
     }
   ]
