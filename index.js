@@ -39,7 +39,7 @@ const data = {
 
         {
           name: 'Startup PH',
-          description: 'Lots of people in here.',
+          description: 'Lots of people in here, just get in.',
           links: [
             { name: 'Facebook Group', href: 'https://www.facebook.com/groups/219324261492180' },
             { name: 'ClubHouse', href: 'https://www.clubhouse.com/club/startup-ph' }
@@ -77,7 +77,7 @@ const data = {
 
         {
           name: 'Startup PH: (Cebu/Bisdak) Community',
-          description: 'The queen city of the south.',
+          description: 'For those within the queen city of the south.',
           links: [
             { name: 'Facebook Group', href: 'https://www.facebook.com/groups/1119146058126032/' }, 
           ]
