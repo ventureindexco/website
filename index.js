@@ -39,7 +39,7 @@ const data = {
 
         {
           name: 'Startup PH',
-          description: 'Lots of people in here, just get in.',
+          description: 'The go-to Facebook community.',
           links: [
             { name: 'Facebook Group', href: 'https://www.facebook.com/groups/219324261492180' },
             { name: 'ClubHouse', href: 'https://www.clubhouse.com/club/startup-ph' }
@@ -68,14 +68,6 @@ const data = {
         },
 
         {
-          name: 'Philippine TBIs',
-          description: 'For incubators I guess.',
-          links: [
-            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/415694698844734/' },
-          ]
-        },
-
-        {
           name: 'Startup PH: (Cebu/Bisdak) Community',
           description: 'For those within the queen city of the south.',
           links: [
@@ -88,6 +80,14 @@ const data = {
           description: 'If you like building, and if you like communities..',
           links: [
             { name: 'Facebook Group', href: 'https://www.facebook.com/groups/startupphcb/' },
+          ]
+        },
+
+        {
+          name: 'Philippine TBIs',
+          description: 'For incubators I guess.',
+          links: [
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/415694698844734/' },
           ]
         },
 
@@ -129,8 +129,29 @@ const data = {
           links: [
             { name: 'Facebook Group', href: 'https://www.facebook.com/groups/blockchainspaceph/' },
           ]
+        },
+
+        {
+          name: '#CryptoPH',
+          description: 'For blockchain and crypto stuff.',
+          links: [
+            { name: 'Telegram Group', href: 'https://t.me/hashtagcryptoph' },
+          ]
         }
 
+      ]
+    },
+    {
+      name: 'Video',
+      items: [
+        {
+          name: 'BitPinas',
+          description: '-',
+          links: [
+            { name: 'Website', href: 'https://bitpinas.com/' },
+            { name: 'Facebook', href: 'https://www.facebook.com/BitPinas/' },
+          ]
+        }
       ]
     },
     {
@@ -153,7 +174,7 @@ const data = {
             { name: 'Website', href: 'https://thefinalpitch.ph/' },
             { name: 'YouTube', href: 'https://www.youtube.com/channel/UCBa9gQ-bKTKQgYdfBEltohA' },
           ]
-        }
+        },
 
       ]
     },
