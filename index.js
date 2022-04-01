@@ -36,17 +36,19 @@ const data = {
     {
       name: 'Communities',
       items: [
+
         {
           name: 'Startup PH',
-          description: 'For news, events, discussions, etc.',
+          description: 'Lots of people in here.',
           links: [
             { name: 'Facebook Group', href: 'https://www.facebook.com/groups/219324261492180' },
             { name: 'ClubHouse', href: 'https://www.clubhouse.com/club/startup-ph' }
           ]
         },
+
         {
           name: 'Sinigang Valley',
-          description: 'A community, and a tech hub.',
+          description: 'A community and a tech hub in Poblacion.',
           links: [
             { name: 'Website', href: 'https://www.sinigangvalley.com/' },
             { name: 'Twitter', href: 'https://twitter.com/sinigangvalley' },
@@ -54,7 +56,41 @@ const data = {
             { name: 'Instagram', href: 'https://www.instagram.com/sinigangvalley/' },
             { name: 'ClubHouse', href: 'https://www.clubhouse.com/club/sinigang-valley'}
           ]
+        },
+
+        {
+          name: 'Startup Philippines',
+          description: 'An invite-only community, just DM Francis.',
+          links: [
+            { name: 'Twitter Community Invitation', href: 'https://twitter.com/fplaza/status/1471860695314567173' },
+            { name: 'Twitter Community', href: 'https://twitter.com/i/communities/1471859452961640448' },
+          ]
+        },
+
+        {
+          name: 'Philippine TBIs (Technology Business Incubators)',
+          description: 'For incubators I guess.',
+          links: [
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/415694698844734/' }, 
+          ]
+        },
+
+        {
+          name: 'Startup PH: (Cebu/Bisdak) Community',
+          description: 'The queen city of the south.',
+          links: [
+            { name: 'Facebook Group', href: 'https://www.facebook.com/groups/1119146058126032/' }, 
+          ]
+        },
+
+        {
+          name: 'XXX',
+          description: 'XXX',
+          links: [
+            { name: 'XXX', href: 'XXX' }, 
+          ]
         }
+
       ]
     }
   ]
