@@ -66,6 +66,16 @@ const data = {
 
 console.log({ data });
 
-const content = document.getElementById('content');
-const section = document.createElement('div')
-section.classList.add('section');
+const content_element = document.getElementById('content');
+const section_element = document.createElement('div')
+section_element.classList.add('section');
+
+const section_title_element = document.createElement('div')
+section_title_element.classList.add('section-title');
+
+const section_items_element = document.createElement('div')
+section_items_element.classList.add('section-items');
+
+content_element.append(section);
+section_element.append(section_title_element);
+section_element.append(section_items_element);
