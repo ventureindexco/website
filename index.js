@@ -72,10 +72,32 @@ section_element.classList.add('section');
 
 const section_title_element = document.createElement('div')
 section_title_element.classList.add('section-title');
+section_title_element.innerText = 'Example Section Title';
 
 const section_items_element = document.createElement('div')
 section_items_element.classList.add('section-items');
 
+const section_item_element = document.createElement('div')
+section_item_element.classList.add('section-item');
+
+const section_item_title_element = document.createElement('div')
+section_item_title_element.classList.add('section-item-title');
+section_item_title_element.innerText = 'Example Item Title';
+
+const section_item_description_element = document.createElement('div')
+section_item_description_element.classList.add('section-item-description');
+section_item_description_element.innerText = 'Example Item Description';
+
+const section_item_list_element = document.createElement('ul')
+const section_item_list_item_element = document.createElement('li')
+const section_item_list_item_link_element = document.createElement('a')
+section_item_description_element.classList.add('section-item-link');
+
 content_element.append(section);
 section_element.append(section_title_element);
 section_element.append(section_items_element);
+section_items_element.append(section_item_element);
+section_item_element.append(section_item_title_element);
+section_item_element.append(section_item_description_element);
+section_item_element.append(section_item_list_element);
+section_item_list_element.append(section_item_list_item_link_element);
