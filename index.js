@@ -167,7 +167,7 @@ const data = {
       ]
     },
     {
-      name: 'Audio / Podcast',
+      name: 'Audio',
       items: [
 
         {
@@ -305,7 +305,7 @@ data.sections.forEach((section) => {
       
       const section_item_list_item_link_element = document.createElement('a')
       section_item_list_item_link_element.classList.add('section-item-link');
-      section_item_list_item_link_element.innerText = link.name;
+      section_item_list_item_link_element.innerText = `• ${link.name}`;
       section_item_list_item_link_element.target = '_blank';
       section_item_list_item_link_element.href = link.href;
       section_item_list_item_element.append(section_item_list_item_link_element);
